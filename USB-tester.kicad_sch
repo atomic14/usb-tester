@@ -1359,8 +1359,8 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -1433,6 +1433,607 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "TYPEC-324-BCP24_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB2"
+				(at 0 24.765 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TYPEC-324-BCP24"
+				(at 0 22.225 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:USB-C-SMD_TYPEC-324-BCP24"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2835314"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" " XUNPU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MP" "TYPEC-324-BCP24 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TYPEC-324-BCP24_1_0_1"
+				(rectangle
+					(start -12.7 20.32)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -10.16 17.78)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "SSRXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "SSRXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "SSTXP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "SSTXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SUB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "SSRXn1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "SSRXp1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "SSTXp2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "SSTXn2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "SUB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6902,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 103.505 66.04 90)
 			(effects
 				(font
@@ -6929,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 102.235 68.58 0)
 			(effects
 				(font
@@ -6972,7 +7573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 121.285 56.515 0)
 			(effects
 				(font
@@ -6999,7 +7600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 120.015 54.61 0)
 			(effects
 				(font
@@ -7042,7 +7643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 133.985 66.04 90)
 			(effects
 				(font
@@ -7069,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 132.715 68.58 0)
 			(effects
 				(font
@@ -7112,7 +7713,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 126.365 56.515 0)
 			(effects
 				(font
@@ -7139,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 125.095 54.61 0)
 			(effects
 				(font
@@ -7182,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 151.765 56.515 0)
 			(effects
 				(font
@@ -7209,7 +7810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 150.495 54.61 0)
 			(effects
 				(font
@@ -7252,7 +7853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 121.285 66.04 90)
 			(effects
 				(font
@@ -7279,7 +7880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 120.015 68.58 0)
 			(effects
 				(font
@@ -7322,7 +7923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 108.585 66.04 90)
 			(effects
 				(font
@@ -7349,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 107.315 68.58 0)
 			(effects
 				(font
@@ -7392,7 +7993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 111.125 66.04 90)
 			(effects
 				(font
@@ -7419,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 109.855 68.58 0)
 			(effects
 				(font
@@ -7462,7 +8063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 149.225 56.515 0)
 			(effects
 				(font
@@ -7489,7 +8090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 147.955 54.61 0)
 			(effects
 				(font
@@ -7532,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDV"
 			(at 106.045 56.515 0)
 			(effects
 				(font
@@ -7559,7 +8160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 104.775 54.61 0)
 			(effects
 				(font
@@ -7602,7 +8203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 139.065 56.515 0)
 			(effects
 				(font
@@ -7629,7 +8230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 137.795 54.61 0)
 			(effects
 				(font
@@ -7672,7 +8273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 116.205 56.515 0)
 			(effects
 				(font
@@ -7699,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 114.935 54.61 0)
 			(effects
 				(font
@@ -7768,7 +8369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 83.82 54.61 0)
 			(effects
 				(font
@@ -7811,7 +8412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 146.685 56.515 0)
 			(effects
 				(font
@@ -7838,7 +8439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 145.415 54.61 0)
 			(effects
 				(font
@@ -7881,7 +8482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 118.745 56.515 0)
 			(effects
 				(font
@@ -7908,7 +8509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 117.475 54.61 0)
 			(effects
 				(font
@@ -7951,7 +8552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 131.445 66.04 90)
 			(effects
 				(font
@@ -7978,7 +8579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 130.175 68.58 0)
 			(effects
 				(font
@@ -8021,7 +8622,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 108.585 56.515 0)
 			(effects
 				(font
@@ -8048,7 +8649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 107.315 54.61 0)
 			(effects
 				(font
@@ -8091,7 +8692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 111.125 56.515 0)
 			(effects
 				(font
@@ -8118,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 109.855 54.61 0)
 			(effects
 				(font
@@ -8161,7 +8762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 154.305 56.515 0)
 			(effects
 				(font
@@ -8188,7 +8789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 153.035 54.61 0)
 			(effects
 				(font
@@ -8231,7 +8832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 123.825 66.04 90)
 			(effects
 				(font
@@ -8258,7 +8859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 122.555 68.58 0)
 			(effects
 				(font
@@ -8301,7 +8902,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 95.885 66.04 90)
 			(effects
 				(font
@@ -8328,7 +8929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 94.615 68.58 0)
 			(effects
 				(font
@@ -8371,7 +8972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 100.965 56.515 0)
 			(effects
 				(font
@@ -8398,7 +8999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 99.695 54.61 0)
 			(effects
 				(font
@@ -8441,7 +9042,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 98.425 66.04 90)
 			(effects
 				(font
@@ -8468,7 +9069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 97.155 68.58 0)
 			(effects
 				(font
@@ -8511,7 +9112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 95.885 56.515 0)
 			(effects
 				(font
@@ -8538,7 +9139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 94.615 54.61 0)
 			(effects
 				(font
@@ -8581,7 +9182,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 126.365 66.04 90)
 			(effects
 				(font
@@ -8608,7 +9209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 125.095 68.58 0)
 			(effects
 				(font
@@ -8651,7 +9252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 146.685 66.04 90)
 			(effects
 				(font
@@ -8678,7 +9279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 145.415 68.58 0)
 			(effects
 				(font
@@ -8721,7 +9322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 100.965 66.04 90)
 			(effects
 				(font
@@ -8748,7 +9349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 99.695 68.58 0)
 			(effects
 				(font
@@ -8861,7 +9462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 133.985 56.515 0)
 			(effects
 				(font
@@ -8888,7 +9489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 132.715 54.61 0)
 			(effects
 				(font
@@ -8931,7 +9532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDV"
 			(at 136.525 56.515 0)
 			(effects
 				(font
@@ -8958,7 +9559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 135.255 54.61 0)
 			(effects
 				(font
@@ -9001,7 +9602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDB"
 			(at 113.665 56.515 0)
 			(effects
 				(font
@@ -9028,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 112.395 54.61 0)
 			(effects
 				(font
@@ -9071,7 +9672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 144.145 66.04 90)
 			(effects
 				(font
@@ -9098,7 +9699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 142.875 68.58 0)
 			(effects
 				(font
@@ -9141,7 +9742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 113.665 66.04 90)
 			(effects
 				(font
@@ -9168,7 +9769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 112.395 68.58 0)
 			(effects
 				(font
@@ -9211,7 +9812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 141.605 56.515 0)
 			(effects
 				(font
@@ -9238,7 +9839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 140.335 54.61 0)
 			(effects
 				(font
@@ -9281,7 +9882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 123.825 56.515 0)
 			(effects
 				(font
@@ -9308,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 122.555 54.61 0)
 			(effects
 				(font
@@ -9351,7 +9952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 141.605 66.04 90)
 			(effects
 				(font
@@ -9378,7 +9979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 140.335 68.58 0)
 			(effects
 				(font
@@ -9457,6 +10058,24 @@
 		)
 		(property "LCSC Part" "C2835314"
 			(at 39.37 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " XUNPU"
+			(at 39.37 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "TYPEC-324-BCP24 "
+			(at 39.37 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +10195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 128.905 56.515 0)
 			(effects
 				(font
@@ -9603,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 127.635 54.61 0)
 			(effects
 				(font
@@ -9646,7 +10265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 118.745 66.04 90)
 			(effects
 				(font
@@ -9673,7 +10292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 117.475 68.58 0)
 			(effects
 				(font
@@ -9743,7 +10362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -9780,7 +10399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 116.205 66.04 90)
 			(effects
 				(font
@@ -9807,7 +10426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 114.935 68.58 0)
 			(effects
 				(font
@@ -9850,7 +10469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 131.445 56.515 0)
 			(effects
 				(font
@@ -9877,7 +10496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 130.175 54.61 0)
 			(effects
 				(font
@@ -9920,7 +10539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 151.765 66.04 90)
 			(effects
 				(font
@@ -9947,7 +10566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 150.495 68.58 0)
 			(effects
 				(font
@@ -9990,7 +10609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 106.045 66.04 90)
 			(effects
 				(font
@@ -10017,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 104.775 68.58 0)
 			(effects
 				(font
@@ -10060,7 +10679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 139.065 66.04 90)
 			(effects
 				(font
@@ -10087,7 +10706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 137.795 68.58 0)
 			(effects
 				(font
@@ -10157,7 +10776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 91.44 98.425 0)
 			(effects
 				(font
@@ -10221,7 +10840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 111.125 98.425 0)
 			(effects
 				(font
@@ -10258,7 +10877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 136.525 66.04 90)
 			(effects
 				(font
@@ -10285,7 +10904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 135.255 68.58 0)
 			(effects
 				(font
@@ -10328,7 +10947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDB"
 			(at 144.145 56.515 0)
 			(effects
 				(font
@@ -10355,7 +10974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 142.875 54.61 0)
 			(effects
 				(font
@@ -10398,7 +11017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 128.905 66.04 90)
 			(effects
 				(font
@@ -10425,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 127.635 68.58 0)
 			(effects
 				(font
@@ -10468,7 +11087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 103.505 56.515 0)
 			(effects
 				(font
@@ -10495,7 +11114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 102.235 54.61 0)
 			(effects
 				(font
@@ -10564,7 +11183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -10741,7 +11360,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 154.305 66.04 90)
 			(effects
 				(font
@@ -10768,7 +11387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 153.035 68.58 0)
 			(effects
 				(font
@@ -10838,7 +11457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -10875,7 +11494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 98.425 56.515 0)
 			(effects
 				(font
@@ -10902,7 +11521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 97.155 54.61 0)
 			(effects
 				(font
@@ -11006,6 +11625,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TYPEC-324-BCP24_1")
 		(lib_id "easyeda2kicad:TYPEC-324-BCP24")
 		(at 191.135 47.625 0)
 		(unit 1)
@@ -11065,6 +11685,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MF" " XUNPU"
+			(at 191.135 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "TYPEC-324-BCP24 "
+			(at 191.135 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -11179,7 +11815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 149.225 66.04 90)
 			(effects
 				(font
@@ -11206,7 +11842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 147.955 68.58 0)
 			(effects
 				(font

@@ -471,7 +471,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "USB-tester.step",
-      "svg": "",
+      "svg": "images",
       "vrml": ""
     },
     "page_layout_descr_file": ""

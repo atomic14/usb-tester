@@ -193,7 +193,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e821d17f-66ff-4243-9f99-bdf1fd8bc3e6")
@@ -228,7 +228,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -403,7 +403,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "abe245cd-7f1e-49ae-9654-8f83010f8c45")
@@ -438,7 +438,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -635,7 +635,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "477771dd-a7a0-4625-9cc4-54e406dee48a")
@@ -670,7 +670,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -895,6 +895,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "83605b7d-8733-4827-86ed-33772b4e66ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" " XUNPU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d1c13fa-3912-4466-a2d2-93c3e09ca2c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TYPEC-324-BCP24 "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04d6dd26-8e48-4514-b6a0-3e991596024a")
 			(effects
 				(font
 					(size 1 1)
@@ -1381,7 +1407,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDV"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2894baa8-5f82-4014-afac-b9bc412b103b")
@@ -1416,7 +1442,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1648,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1845,7 +1871,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "336cb683-ba82-4b19-a872-3617c17d7156")
@@ -1880,7 +1906,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2055,7 +2081,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "975961dc-8165-4410-87cc-0149153bdfde")
@@ -2090,7 +2116,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2287,7 +2313,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "50ab398a-6bfd-4696-8252-a4a8831a16f9")
@@ -2322,7 +2348,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2497,7 +2523,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1b11b508-4ecf-445c-95f1-e4c5791cd1cf")
@@ -2532,7 +2558,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2707,7 +2733,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d2b4cce6-aa47-4cdf-9c78-7f5b3b1758cb")
@@ -2742,7 +2768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2939,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cdf06281-cb43-4ee8-bd71-d5c7b727024d")
@@ -2974,7 +3000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3221,6 +3247,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "21060a3b-708f-430c-9112-4a2598825eb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" " XUNPU"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4256925-89fc-4c7d-aec9-5f60e6fa071a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "TYPEC-324-BCP24 "
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2cc2d34-f931-416b-beb8-1b2569f5d112")
 			(effects
 				(font
 					(size 1 1)
@@ -3743,7 +3795,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3818,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "a511449c-c5fe-4deb-b114-b60dbbbdc46a")
@@ -3853,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4028,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "51b4fc89-4447-4bbe-9167-a8ca8ca6aa4d")
@@ -4063,7 +4115,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4260,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d5a656a2-046d-4d86-9643-5ec20b703965")
@@ -4295,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4492,7 +4544,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b3de0d7b-b5ef-41e9-9f87-ba4b4b890111")
@@ -4527,7 +4579,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4702,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "845c7ec3-ea5d-4485-b6ef-7993582e8cde")
@@ -4737,7 +4789,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4969,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5144,7 +5196,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "816bba9d-ec84-4cde-ac3b-a3919107db19")
@@ -5179,7 +5231,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5354,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "94aaa697-ac97-4e52-b0b7-9bfa1fb6436b")
@@ -5389,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5564,7 +5616,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e3ab0b79-cdda-44c1-b6b5-8d2c72a49ac2")
@@ -5599,7 +5651,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5796,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "832f05fe-b396-4264-897e-60a4202ed600")
@@ -5831,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6028,7 +6080,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f52bad49-9981-4d12-8211-26932994eee8")
@@ -6063,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6238,7 +6290,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "92141f8c-07a7-48ce-9ea4-c78fd1a035d3")
@@ -6273,7 +6325,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6448,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e5d5b23a-a1c0-4b7f-8564-5af1f49d31e0")
@@ -6483,7 +6535,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6658,7 +6710,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "dbe43ddc-736e-4754-b526-0a25d2dde999")
@@ -6693,7 +6745,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6868,7 +6920,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDB"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5fff128f-c18c-40e2-aba5-42c1bdf4800e")
@@ -6903,7 +6955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7100,7 +7152,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8b48a9eb-43ac-468a-ae6a-bca6a5904d84")
@@ -7135,7 +7187,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7332,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3dd67b4a-4df7-4ee6-901a-deea4229cf40")
@@ -7367,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7542,7 +7594,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "488893e6-3506-4548-9c7c-d76f1477db10")
@@ -7577,7 +7629,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7774,7 +7826,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5cf0325e-05a9-4324-acfd-9a9e6e4b4c77")
@@ -7809,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7984,7 +8036,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "db34e475-7f24-45d3-95c3-c0bf4e9d647b")
@@ -8019,7 +8071,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8194,7 +8246,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "27cd8d1e-ceda-41c8-a3e6-a2a138454b7f")
@@ -8229,7 +8281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8873,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3c375421-6721-48f4-96ca-5ef73c172c93")
@@ -8908,7 +8960,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9105,7 +9157,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3c74d9a9-4939-48a0-a34c-3f0de0c3fe54")
@@ -9140,7 +9192,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9315,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5408b4b1-b841-4f86-83a1-0ea3e692ac25")
@@ -9350,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9547,7 +9599,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "45ee5096-72b7-4980-ac22-74edf267e0dd")
@@ -9582,7 +9634,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9793,7 +9845,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9868,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "709d4d37-76f6-46e9-ba5e-464d809cacf2")
@@ -9903,7 +9955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10100,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDW"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "694325c9-3043-44bf-b495-18faab32dd70")
@@ -10135,7 +10187,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10332,7 +10384,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4615e78e-614d-49ae-a838-bf7bb5a6d47b")
@@ -10367,7 +10419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10578,7 +10630,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10653,7 +10705,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "68f9d7b7-4e14-462e-9dd3-e085cb40a865")
@@ -10688,7 +10740,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10853,7 +10905,7 @@
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.77 270)
+			(at 0 -2.77 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5ffefd7c-7b7c-434a-aa6b-c682290be3f3")
@@ -10865,7 +10917,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 0 5.31 270)
+			(at 0 5.31 -90)
 			(layer "F.Fab")
 			(uuid "9660d877-9a50-40cb-9126-afe6487ccc90")
 			(effects
@@ -11067,7 +11119,7 @@
 			(uuid "080df7fb-5e1c-4001-9da0-24b12d21a62c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "7813708a-5f73-4574-ae9c-54f6e8faec21")
 			(effects
@@ -11128,7 +11180,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6e907c31-10fc-462a-be81-df045081eaae")
@@ -11163,7 +11215,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11360,7 +11412,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDY"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8a331743-d980-42f4-b51b-287978ccfe90")
@@ -11395,7 +11447,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11628,7 +11680,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11703,7 +11755,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDB"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "df100438-a19b-44ea-9c3f-32d281442c82")
@@ -11738,7 +11790,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11935,7 +11987,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDV"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "676aeb24-ff0f-4814-a606-2d42024b10f5")
@@ -11970,7 +12022,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12167,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cf2f4945-ad18-450c-9df1-7b55222016c8")
@@ -12202,7 +12254,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12377,7 +12429,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDR"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "fcb38c5a-ebb6-4f97-8426-36ad921c9b46")
@@ -12412,7 +12464,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12609,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cfab155e-c7cd-4d6f-8454-4f43fa81fcff")
@@ -12644,7 +12696,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12819,7 +12871,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2537ab53-870d-48b1-a185-45aa469531a1")
@@ -12854,7 +12906,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13029,7 +13081,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDG"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d6c606ec-9561-4348-b28b-1d5a84530e71")
@@ -13064,7 +13116,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13261,7 +13313,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8f30d85e-ee35-4b13-be0a-429682dce358")
@@ -13296,7 +13348,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13459,7 +13511,7 @@
 		(uuid "39e6487a-ab2e-40f6-8357-add00fa1af63")
 		(at 151.0162 100.1098 90)
 		(property "Reference" "BT2"
-			(at 0 0.25 270)
+			(at 0 0.25 -90)
 			(layer "B.SilkS")
 			(uuid "e89db7c6-b98b-4c94-b3e8-9ce562022ef2")
 			(effects
@@ -13471,7 +13523,7 @@
 			)
 		)
 		(property "Value" "BS-06-B4AK008"
-			(at 0 7.031944 270)
+			(at 0 7.031944 -90)
 			(layer "B.Fab")
 			(uuid "af5e4514-680c-4bc0-b135-54b733b05151")
 			(effects
@@ -13519,7 +13571,7 @@
 			)
 		)
 		(property "LCSC Part" "C964762"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f652abda-1d29-426a-9013-b4c9ec3dfe50")
@@ -13727,7 +13779,7 @@
 			(uuid "5819f3a4-aba0-4ce0-ba6b-2ff6b1dc20e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.078892 270)
+			(at 0 3.078892 -90)
 			(layer "B.Fab")
 			(uuid "6f96cdd3-2bca-4778-a687-98cec17445ae")
 			(effects
